@@ -5,10 +5,6 @@ var timer = document.querySelector(".timer");
 var list = document.querySelector(".list");
 var response = document.querySelector(".response");
 var startValue = 0
-// var choice1 = document.getElementById("choice1");
-// var choice2 = document.getElementById("choice2");
-// var choice3 = document.getElementById("choice3");
-// var choice4 = document.getElementById("choice4");
 var time = 60;
 var questionPosition = 0
 var questionsArray = [
@@ -39,10 +35,6 @@ var questionsArray = [
   },
 ];
 
-// choice1.style.display = "none";
-// choice2.style.display = "none";
-// choice3.style.display = "none";
-// choice4.style.display = "none";
 
 function countdown() {
   var clock = setInterval(function () {
