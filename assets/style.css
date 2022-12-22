@@ -1,4 +1,26 @@
 
-form {
+button {
+    text-align: center;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+    margin-left: 100px;
+}
+
+.list {
+    text-align: center;
+}
+
+
+.scoreList {
+    color: purple;
+    float: left;
+}
+.timer {
+    float: right;
+}
+.form {
     text-align: center;
 }
